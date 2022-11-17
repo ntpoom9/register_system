@@ -1,0 +1,19 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    border:0 ;
+}
+.card-body {
+    padding-left: 0;
+}
+.card-title {
+    font-size: 18px;
+    color: black;
+    
+}
