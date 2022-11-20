@@ -164,27 +164,56 @@
             <h5>ข้อมูลการศึกษา</h5>
 
             <form>
-                <div class="divFormAdmission">
+                <div class="row">
                     <div class="col-4">
-                        <label for="address" class="form-label">ที่อยู่</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        <label for="school" class="form-label">ชื่อสถานศึกษาที่จบ</label>
+                        <input type="text" class="form-control" id="" name="school">
                     </div>
                     <div class="col-4">
-                        <label for="email" class="form-label">อีเมล</label>
-                        <input type="email" class="form-control" id="" name="email">
+                        <label for="" class="form-label">วุฒิเดิม</label>
+                        <select class="form-select" name="">
+                            <option selected>เลือกวุฒิการศึกษา</option>
+                            <option value="ม.6">ม.6</option>
+                            <option value="กศน.">กศน.</option>
+                            <option value="ปวช.">ปวช.</option>
+                            <option value="ปวส.">ปวส.</option>
+                        </select>
                     </div>
                     <div class="col-4">
-                        <label for="tel" class="form-label">เบอร์โทร</label>
-                        <input type="text" class="form-control" id="" name="tel">
+                        <label for="gpa" class="form-label">GPAX</label>
+                        <input type="text" class="form-control" id="" name="gpa">
                     </div>
-                    <button type="button" class="btn btn-next" onclick="nexttostep2()">ถัดไป</button>
                 </div>
+                <button type="button" class="btn btn-next mt-5" onclick="nexttostep4()">ถัดไป</button>
             </form>
         </div>
 
         <!-- content step4 -->
         <div id="content-step4" class="content-step4">
-            <h5>ข้อมูลการศึกษา</h5>
+            <h5>สาขาวิชาที่สนใจ</h5>
+
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="" class="form-label">คณะ</label>
+                        <select class="form-select" name="">
+                            <option selected>เลือกคณะ</option>
+                            <option value="คณะครุศาสตร์">คณะครุศาสตร์</option>
+                            <option value="คณะมนุษย์ศาสตร์และสังคมศาสตร์">คณะมนุษย์ศาสตร์และสังคมศาสตร์</option>
+                            <option value="คณะมนุษย์ศาสตร์และสังคมศาสตร์">...</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label for="" class="form-label">สาขา</label>
+                        <select class="form-select" name="">
+                            <option selected>เลือกสาขา</option>
+                            <option value="ม.6">สาขา</option>
+
+                        </select>
+                    </div>
+                </div>
+                <a href="success_page.php" class="btn btn-next mt-5">ส่งใบสมัคร</a>
+            </form>
         </div>
 
     </div>
@@ -195,7 +224,6 @@
     <script>
         function nexttostep2() {
             var content1 = document.getElementById("content-step1");
-            // var content2 = document.getElementById("content-step2");
             if (content1.style.display === "none") {
                 content1.style.display = "block";
             } else {
@@ -208,7 +236,6 @@
 
         function nexttostep3() {
             var content2 = document.getElementById("content-step2");
-            // var content2 = document.getElementById("content-step2");
             if (content2.style.display === "none") {
                 content2.style.display = "block";
             } else {
@@ -216,6 +243,18 @@
                 document.getElementById("content-step3").style.display = "block";
                 document.getElementsByClassName("progress-bar")[0].style.width = "63%";
                 document.getElementsByClassName("group-step3")[0].style.color = "#000000";
+            }
+        }
+
+        function nexttostep4() {
+            var content3 = document.getElementById("content-step3");
+            if (content3.style.display === "none") {
+                content3.style.display = "block";
+            } else {
+                content3.style.display = "none";
+                document.getElementById("content-step4").style.display = "block";
+                document.getElementsByClassName("progress-bar")[0].style.width = "90%";
+                document.getElementsByClassName("group-step4")[0].style.color = "#000000";
             }
         }
     </script>
