@@ -3,16 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    padding: 0px 200px 50px 200px;
+}
 .adms-title { /*? text title */
     margin-top: 50px;
     text-align: center;
 }
+
 .group-step1 , .group-step2 , .group-step3 , .group-step4 {
     text-align: center;
-}
-.progress-bar { 
-    background-color: rgb(112, 164, 255);
-    width: 12%;
 }
 .group-step2 {
     color: rgb(180, 180, 180);
@@ -24,9 +24,54 @@
     color: rgb(180, 180, 180);
 }
 
-.btn-next {
-    background-color: rgb(47, 184, 20);
-    border-radius: 20px;
-    width: 100px;
-    float: right;
+.progress-bar { 
+    background-color: rgb(112, 164, 255);
+    width: 11%;
 }
+
+.content-step1 {
+    margin: 8% 0% 0% 0%;
+    display: block;
+}
+.content-step2 , .content-step3 , .content-step4{
+    margin: 8% 0% 0% 0%;
+}
+
+.divFormAdmission {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.form-group {
+    margin: 2%;
+    width: 30%;
+}
+.form-label {
+    margin-top: 3%;
+}
+.gender-group {
+    margin: 0 0 0 2%;
+}
+
+.btn-next {
+    background-color: rgb(65, 131, 255);
+    color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0,0,0,.2);
+    width: 120px;
+    height: 39px;
+    float: right;
+    margin: 2% 0 0 4%;
+}
+.btn-next:hover {
+    background-color: rgb(20, 95, 235);
+    color: #ffffff;
+}
+
+#content-step1 {
+    display: block;
+}
+#content-step2 , #content-step3 , #content-step4{
+    display: none;
+}
+

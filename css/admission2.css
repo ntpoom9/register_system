@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0px 200px 50px 200px;
+}
+.adms-title { /*? text title */
+    margin-top: 50px;
+    text-align: center;
+}
+.group-step1 , .group-step2 , .group-step3 , .group-step4 {
+    text-align: center;
+}
+.progress-bar { 
+    background-color: rgb(112, 164, 255);
+    width: 37%;
+}
+.group-step2 {
+    color: rgb(0, 0, 0);
+}
+.group-step3 {
+    color: rgb(180, 180, 180);
+}
+.group-step4 {
+    color: rgb(180, 180, 180);
+}
+
+.birthdayLayout {
+    display: flex;
+    justify-content: space-around;
+}
+.genderRow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-next {
+    background-color: rgb(28, 100, 255);
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100px;
+    float: right;
+}
