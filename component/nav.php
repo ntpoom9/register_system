@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="./img/real-logoNPRU-removebg.png" class="logo">
         </a>
 
@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">หน้าหลัก</a>
+                    <a class="nav-link" href="index.php">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ข่าวสาร</a>
@@ -21,13 +21,13 @@
                     <a class="nav-link" href="#">เกี่ยวกับมหาวิทยาลัย</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">สมัครเรียน</a>
+                    <a class="nav-link" href="login.php">สมัครเรียน</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link regis-li" href="#">สมัครสมาชิก</a>
+                    <a class="nav-link regis-li" href="register.php">สมัครสมาชิก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link login-li" href="#">เข้าสู่ระบบ</a>
+                    <a class="nav-link login-li" href="login.php">เข้าสู่ระบบ</a>
                 </li>
             </ul>
             <span class="navbar-text">
