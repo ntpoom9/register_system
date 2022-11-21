@@ -21,18 +21,18 @@
                     <a class="nav-link" href="#">เกี่ยวกับมหาวิทยาลัย</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.php">สมัครเรียน</a>
+                    <a class="nav-link" href="login_page.php">สมัครเรียน</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link regis-li" href="register.php">สมัครสมาชิก</a>
+                    <a class="nav-link regis-li" href="register_page.php">สมัครสมาชิก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link login-li" href="login.php">เข้าสู่ระบบ</a>
+                    <a class="nav-link login-li" href="login_page.php">เข้าสู่ระบบ</a>
                 </li>
             </ul>
             <span class="navbar-text">
-                <a href="#" class="nav-link-regis">สมัครสมาชิก</a> /
-                <a href="#" class="nav-link-login">เข้าสู่ระบบ</a>
+                <a href="register_page.php" class="nav-link-regis">สมัครสมาชิก</a> /
+                <a href="login_page.php" class="nav-link-login">เข้าสู่ระบบ</a>
             </span>
 
         </div>
