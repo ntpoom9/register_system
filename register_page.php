@@ -28,7 +28,7 @@ require_once("./component/header.php");
                         <label for="password" class="form-label mt-4">รหัสผ่าน</label>
                         <input type="password" class="form-control" id="">
                     </div>
-                    <a href="index.php" class="btn btn-register">สมัครสมาชิก</a>
+                    <a href="login_page.php" class="btn btn-register">สมัครสมาชิก</a>
                 </div>
                 <div class="col-4"></div>
             </div>

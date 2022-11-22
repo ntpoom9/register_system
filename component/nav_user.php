@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="indexUser_page.php">
             <img src="./img/real-logoNPRU-removebg.png" class="logo">
         </a>
 
@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">หน้าหลัก</a>
+                    <a class="nav-link" href="indexUser_page.php">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ข่าวสาร</a>
