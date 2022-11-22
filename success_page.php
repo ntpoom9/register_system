@@ -19,7 +19,7 @@
 
     <h2>สมัครเรียนสำเร็จ</h2>
     <center>
-        <a href="index.php" type="button" class="btn btn-primary">กลับหน้าหลัก</a>
+        <a href="indexUser_page.php" type="button" class="btn btn-primary">กลับหน้าหลัก</a>
     </center>
     
 </body>
